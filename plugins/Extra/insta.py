@@ -116,4 +116,4 @@ async def link_handler(Mbot, message):
             await m.delete()
             if 'downfile' in locals():
                 os.remove(downfile)
-            await message.reply("<a href='https://t.me/nova_flix'>Lucy</a>")
+            await message.reply("<a href='https://t.me/botflixbd'>Lucy</a>")
